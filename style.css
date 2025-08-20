@@ -46,3 +46,12 @@ main {
 .recipe a:hover {
     text-decoration: underline;
 }
+
+.recipe {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px; /* Mjuka hörn, kan tas bort om du vill */
+    margin: 10px;
+    display: block;    /* Gör att margin funkar vertikalt */
+}
